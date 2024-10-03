@@ -1,0 +1,18 @@
+html, body {
+    background-color: aqua;
+    height: 100%;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
