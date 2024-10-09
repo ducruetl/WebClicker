@@ -1,18 +1,35 @@
 html, body {
-    background-color: aqua;
+    background-color: rgb(0, 141, 197);
     height: 100%;
     margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0px;
 }
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
+    min-height: 80%;
+    margin-bottom: 10%;
 }
 
-img {
+/* Image de la cible a clicker */
+
+#target {
     width: 250px;
     height: 250px;
     border-radius: 50%;
 }
+
+#target:active {
+    transition: 0.1s;
+    width: 220px;
+    height: 220px;
+}
+
