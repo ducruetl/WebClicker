@@ -27,9 +27,3 @@ section {
     border-radius: 50%;
 }
 
-#target:active {
-    transition: 0.1s;
-    width: 220px;
-    height: 220px;
-}
-
