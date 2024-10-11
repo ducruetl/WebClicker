@@ -7,12 +7,36 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <img src="images/speaker_on.png" alt="sound icon" id="sound" onclick="sound()">
     <h1 id="clickCounter"></h1>
+    <img src="images/settings.svg" alt="settings icon" id="settings" onclick="settings()">
     <section>
-        <a href="#">
-            <img src="images/target.png" alt="target" id="target" onclick="onTargetClick()">
-        </a>
+        <img src="images/jarod_target.png" alt="target" id="target" onclick="onTargetClick()">
     </section>
+
+    <section id="settings-menu">
+        <div>
+            <img src="images/jarod_target.png" alt="image jarod" class="img-settings" onclick="selectTarget(event)">
+            <h2>Jarod</h2>
+        </div>
+        <div>
+            <img src="images/lea_target.jpg" alt="image lea" class="img-settings" onclick="selectTarget(event)">
+            <h2>Léa</h2>
+        </div>
+        <div>
+            <img src="images/lili_target.png" alt="image lili" class="img-settings" onclick="selectTarget(event)">
+            <h2>Lili</h2>
+        </div>
+        <div>
+            <img src="images/lynn_target.jpg" alt="image lynn" class="img-settings" onclick="selectTarget(event)">
+            <h2>Lynn</h2>
+        </div>
+        <div>
+            <img src="images/leo_target.png" alt="image leo" class="img-settings" onclick="selectTarget(event)">
+            <h2>Léo</h2>
+        </div>
+    </section>
+
 </body>
 
 <script src="javascript/clicker.js"></script>

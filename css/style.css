@@ -12,11 +12,20 @@ h1 {
 }
 
 section {
+    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80%;
     margin-bottom: 10%;
+}
+
+/* Image pour activer/désactiver le son */
+
+#sound {
+    position: absolute;
+    width: 48px;
+    top: 1%;
+    left: 1%;
 }
 
 /* Image de la cible a clicker */
@@ -25,5 +34,44 @@ section {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    border: solid 4px white;
+    cursor: url(http://www.rw-designer.com/icon-image/15806-32x32x32.png), pointer;
 }
 
+/* ------- SETTINGS ------- */
+
+/* Images des cibles dans les paramètres */
+
+.img-settings {
+    width: 100px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+
+/* Image du logo paramètres */
+
+#settings {
+    position: absolute;
+    width: 48px;
+    right: 1%;
+    top: 1%;
+}
+
+/* Menu de paramètres */
+
+#settings-menu {
+    display: none;
+    position: fixed;
+    border: solid 4px white;
+    background-color: rgb(0, 97, 136);
+    top: 0;
+    justify-content: space-evenly;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 150px;
+    padding: 0;
+    padding-top: 20px;
+}
